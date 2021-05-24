@@ -1,0 +1,50 @@
+.logo{
+    margin-top: -10px;
+}
+.menu{
+    width: 50%;
+    margin-left: 220px;
+}
+.menu li a{
+    color: #fff !important;
+    font-size: 18px;
+    font-weight: 500;
+}
+.d-menu li a{
+    color: #000 !important;
+}
+.d-menu{
+    top: 130% !important;
+    width: 220px !important;
+}
+.bg-b{
+    position: relative !important;
+  
+}
+.bg-b h5,p{
+  
+}
+.bg-b::after{
+     content: '';
+     position: absolute !important;
+     top: 0;
+     left: 0;
+     height: 100%;
+     width: 100%;
+     background: rgba(0,0,0, .5) !important;
+
+}
+.z-index{
+    z-index: 999 !important;
+}
+.z-index h5{
+    font-size: 30px;
+    font-weight: 700;
+}
+.z-index p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.bg-ps{
+    background: #0dcaf0;
+}
